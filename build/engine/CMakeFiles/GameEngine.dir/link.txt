@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libGameEngine.a CMakeFiles/GameEngine.dir/source/Game.cpp.o CMakeFiles/GameEngine.dir/source/TexMan.cpp.o CMakeFiles/GameEngine.dir/source/Thing.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libGameEngine.a

@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nolen/Desktop/coffeeGame
+CMAKE_SOURCE_DIR = /Users/nolen/Desktop/Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nolen/Desktop/coffeeGame/build
+CMAKE_BINARY_DIR = /Users/nolen/Desktop/Engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/nolen/Desktop/coffeeGame/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/coffeeGame/build/CMakeFiles /Users/nolen/Desktop/coffeeGame/build/engine//CMakeFiles/progress.marks
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/coffeeGame/build/CMakeFiles 0
+	cd /Users/nolen/Desktop/Engine/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/Engine/build/CMakeFiles /Users/nolen/Desktop/Engine/build/engine//CMakeFiles/progress.marks
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/Engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/clean
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,39 +103,39 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/preinstall
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/preinstall
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/nolen/Desktop/Engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-engine/CMakeFiles/coffeeGameEngine.dir/rule:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/CMakeFiles/coffeeGameEngine.dir/rule
-.PHONY : engine/CMakeFiles/coffeeGameEngine.dir/rule
+engine/CMakeFiles/GameEngine.dir/rule:
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/CMakeFiles/GameEngine.dir/rule
+.PHONY : engine/CMakeFiles/GameEngine.dir/rule
 
 # Convenience name for target.
-coffeeGameEngine: engine/CMakeFiles/coffeeGameEngine.dir/rule
-.PHONY : coffeeGameEngine
+GameEngine: engine/CMakeFiles/GameEngine.dir/rule
+.PHONY : GameEngine
 
 # fast build rule for target.
-coffeeGameEngine/fast:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/build
-.PHONY : coffeeGameEngine/fast
+GameEngine/fast:
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/build
+.PHONY : GameEngine/fast
 
 source/Game.o: source/Game.cpp.o
 .PHONY : source/Game.o
 
 # target to build an object file
 source/Game.cpp.o:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/Game.cpp.o
 .PHONY : source/Game.cpp.o
 
 source/Game.i: source/Game.cpp.i
@@ -143,7 +143,7 @@ source/Game.i: source/Game.cpp.i
 
 # target to preprocess a source file
 source/Game.cpp.i:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.i
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/Game.cpp.i
 .PHONY : source/Game.cpp.i
 
 source/Game.s: source/Game.cpp.s
@@ -151,7 +151,7 @@ source/Game.s: source/Game.cpp.s
 
 # target to generate assembly for a file
 source/Game.cpp.s:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.s
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/Game.cpp.s
 .PHONY : source/Game.cpp.s
 
 source/TexMan.o: source/TexMan.cpp.o
@@ -159,7 +159,7 @@ source/TexMan.o: source/TexMan.cpp.o
 
 # target to build an object file
 source/TexMan.cpp.o:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/TexMan.cpp.o
 .PHONY : source/TexMan.cpp.o
 
 source/TexMan.i: source/TexMan.cpp.i
@@ -167,7 +167,7 @@ source/TexMan.i: source/TexMan.cpp.i
 
 # target to preprocess a source file
 source/TexMan.cpp.i:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.i
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/TexMan.cpp.i
 .PHONY : source/TexMan.cpp.i
 
 source/TexMan.s: source/TexMan.cpp.s
@@ -175,7 +175,7 @@ source/TexMan.s: source/TexMan.cpp.s
 
 # target to generate assembly for a file
 source/TexMan.cpp.s:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.s
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/TexMan.cpp.s
 .PHONY : source/TexMan.cpp.s
 
 source/Thing.o: source/Thing.cpp.o
@@ -183,7 +183,7 @@ source/Thing.o: source/Thing.cpp.o
 
 # target to build an object file
 source/Thing.cpp.o:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/Thing.cpp.o
 .PHONY : source/Thing.cpp.o
 
 source/Thing.i: source/Thing.cpp.i
@@ -191,7 +191,7 @@ source/Thing.i: source/Thing.cpp.i
 
 # target to preprocess a source file
 source/Thing.cpp.i:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.i
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/Thing.cpp.i
 .PHONY : source/Thing.cpp.i
 
 source/Thing.s: source/Thing.cpp.s
@@ -199,7 +199,7 @@ source/Thing.s: source/Thing.cpp.s
 
 # target to generate assembly for a file
 source/Thing.cpp.s:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.s
+	cd /Users/nolen/Desktop/Engine/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/source/Thing.cpp.s
 .PHONY : source/Thing.cpp.s
 
 # Help Target
@@ -210,7 +210,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... coffeeGameEngine"
+	@echo "... GameEngine"
 	@echo "... source/Game.o"
 	@echo "... source/Game.i"
 	@echo "... source/Game.s"
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/nolen/Desktop/Engine/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

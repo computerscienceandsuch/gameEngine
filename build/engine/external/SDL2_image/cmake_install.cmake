@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2_image
+# Install script for directory: /Users/nolen/Desktop/Engine/engine/external/SDL2_image
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 

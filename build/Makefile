@@ -57,10 +57,10 @@ RM = /usr/local/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nolen/Desktop/coffeeGame
+CMAKE_SOURCE_DIR = /Users/nolen/Desktop/Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nolen/Desktop/coffeeGame/build
+CMAKE_BINARY_DIR = /Users/nolen/Desktop/Engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/coffeeGame/build/CMakeFiles /Users/nolen/Desktop/coffeeGame/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/Engine/build/CMakeFiles /Users/nolen/Desktop/Engine/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/coffeeGame/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/nolen/Desktop/Engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,30 +117,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named coffeeGame
+# Target rules for targets named Game
 
 # Build rule for target.
-coffeeGame: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coffeeGame
-.PHONY : coffeeGame
+Game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Game
+.PHONY : Game
 
 # fast build rule for target.
-coffeeGame/fast:
-	$(MAKE) $(MAKESILENT) -f game/CMakeFiles/coffeeGame.dir/build.make game/CMakeFiles/coffeeGame.dir/build
-.PHONY : coffeeGame/fast
+Game/fast:
+	$(MAKE) $(MAKESILENT) -f game/CMakeFiles/Game.dir/build.make game/CMakeFiles/Game.dir/build
+.PHONY : Game/fast
 
 #=============================================================================
-# Target rules for targets named coffeeGameEngine
+# Target rules for targets named GameEngine
 
 # Build rule for target.
-coffeeGameEngine: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 coffeeGameEngine
-.PHONY : coffeeGameEngine
+GameEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 GameEngine
+.PHONY : GameEngine
 
 # fast build rule for target.
-coffeeGameEngine/fast:
-	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/build
-.PHONY : coffeeGameEngine/fast
+GameEngine/fast:
+	$(MAKE) $(MAKESILENT) -f engine/CMakeFiles/GameEngine.dir/build.make engine/CMakeFiles/GameEngine.dir/build
+.PHONY : GameEngine/fast
 
 #=============================================================================
 # Target rules for targets named sdl_headers_copy
@@ -243,13 +243,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... sdl_headers_copy"
 	@echo "... uninstall"
+	@echo "... Game"
+	@echo "... GameEngine"
 	@echo "... SDL2"
 	@echo "... SDL2-static"
 	@echo "... SDL2_image"
 	@echo "... SDL2_test"
 	@echo "... SDL2main"
-	@echo "... coffeeGame"
-	@echo "... coffeeGameEngine"
 .PHONY : help
 
 

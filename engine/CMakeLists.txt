@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 
-project(coffeeGameEngine LANGUAGES CXX)
+project(GameEngine LANGUAGES CXX)
 
 file(GLOB engine_sources source/*.cpp)
 

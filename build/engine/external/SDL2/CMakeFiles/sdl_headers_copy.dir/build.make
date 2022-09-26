@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nolen/Desktop/coffeeGame
+CMAKE_SOURCE_DIR = /Users/nolen/Desktop/Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nolen/Desktop/coffeeGame/build
+CMAKE_BINARY_DIR = /Users/nolen/Desktop/Engine/build
 
 # Utility rule file for sdl_headers_copy.
 
@@ -144,313 +144,313 @@ engine/external/SDL2/CMakeFiles/sdl_headers_copy: engine/external/SDL2/include/S
 engine/external/SDL2/CMakeFiles/sdl_headers_copy: engine/external/SDL2/include/begin_code.h
 engine/external/SDL2/CMakeFiles/sdl_headers_copy: engine/external/SDL2/include/close_code.h
 
-engine/external/SDL2/include/SDL.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/SDL.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL.h
-
-engine/external/SDL2/include/SDL_assert.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_assert.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/SDL_assert.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_assert.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_assert.h
-
-engine/external/SDL2/include/SDL_atomic.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_atomic.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/SDL_atomic.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_atomic.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_atomic.h
-
-engine/external/SDL2/include/SDL_audio.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_audio.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/SDL_audio.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_audio.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_audio.h
-
-engine/external/SDL2/include/SDL_bits.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_bits.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/SDL_bits.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_bits.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_bits.h
-
-engine/external/SDL2/include/SDL_blendmode.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_blendmode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/SDL_blendmode.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_blendmode.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_blendmode.h
-
-engine/external/SDL2/include/SDL_clipboard.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_clipboard.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating include/SDL_clipboard.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_clipboard.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_clipboard.h
-
-engine/external/SDL2/include/SDL_copying.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_copying.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating include/SDL_copying.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_copying.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_copying.h
-
-engine/external/SDL2/include/SDL_cpuinfo.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_cpuinfo.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating include/SDL_cpuinfo.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_cpuinfo.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_cpuinfo.h
-
-engine/external/SDL2/include/SDL_egl.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_egl.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating include/SDL_egl.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_egl.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_egl.h
-
-engine/external/SDL2/include/SDL_endian.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_endian.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating include/SDL_endian.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_endian.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_endian.h
-
-engine/external/SDL2/include/SDL_error.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_error.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating include/SDL_error.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_error.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_error.h
-
-engine/external/SDL2/include/SDL_events.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_events.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating include/SDL_events.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_events.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_events.h
-
-engine/external/SDL2/include/SDL_filesystem.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_filesystem.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating include/SDL_filesystem.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_filesystem.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_filesystem.h
-
-engine/external/SDL2/include/SDL_gamecontroller.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_gamecontroller.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating include/SDL_gamecontroller.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_gamecontroller.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_gamecontroller.h
-
-engine/external/SDL2/include/SDL_gesture.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_gesture.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating include/SDL_gesture.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_gesture.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_gesture.h
-
-engine/external/SDL2/include/SDL_guid.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_guid.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating include/SDL_guid.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_guid.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_guid.h
-
-engine/external/SDL2/include/SDL_haptic.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_haptic.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating include/SDL_haptic.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_haptic.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_haptic.h
-
-engine/external/SDL2/include/SDL_hidapi.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_hidapi.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating include/SDL_hidapi.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_hidapi.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_hidapi.h
-
-engine/external/SDL2/include/SDL_hints.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_hints.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating include/SDL_hints.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_hints.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_hints.h
-
-engine/external/SDL2/include/SDL_joystick.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_joystick.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating include/SDL_joystick.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_joystick.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_joystick.h
-
-engine/external/SDL2/include/SDL_keyboard.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_keyboard.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating include/SDL_keyboard.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_keyboard.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_keyboard.h
-
-engine/external/SDL2/include/SDL_keycode.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_keycode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating include/SDL_keycode.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_keycode.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_keycode.h
-
-engine/external/SDL2/include/SDL_loadso.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_loadso.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating include/SDL_loadso.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_loadso.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_loadso.h
-
-engine/external/SDL2/include/SDL_locale.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_locale.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating include/SDL_locale.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_locale.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_locale.h
-
-engine/external/SDL2/include/SDL_log.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_log.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating include/SDL_log.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_log.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_log.h
-
-engine/external/SDL2/include/SDL_main.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_main.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating include/SDL_main.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_main.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_main.h
-
-engine/external/SDL2/include/SDL_messagebox.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_messagebox.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating include/SDL_messagebox.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_messagebox.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_messagebox.h
-
-engine/external/SDL2/include/SDL_metal.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_metal.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating include/SDL_metal.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_metal.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_metal.h
-
-engine/external/SDL2/include/SDL_misc.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_misc.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating include/SDL_misc.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_misc.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_misc.h
-
-engine/external/SDL2/include/SDL_mouse.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_mouse.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating include/SDL_mouse.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_mouse.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_mouse.h
-
-engine/external/SDL2/include/SDL_mutex.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_mutex.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating include/SDL_mutex.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_mutex.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_mutex.h
-
-engine/external/SDL2/include/SDL_name.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_name.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating include/SDL_name.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_name.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_name.h
-
-engine/external/SDL2/include/SDL_opengl.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengl.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating include/SDL_opengl.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengl.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengl.h
-
-engine/external/SDL2/include/SDL_opengl_glext.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengl_glext.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating include/SDL_opengl_glext.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengl_glext.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengl_glext.h
-
-engine/external/SDL2/include/SDL_opengles.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating include/SDL_opengles.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengles.h
-
-engine/external/SDL2/include/SDL_opengles2.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating include/SDL_opengles2.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengles2.h
-
-engine/external/SDL2/include/SDL_opengles2_gl2.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_gl2.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating include/SDL_opengles2_gl2.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_gl2.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengles2_gl2.h
-
-engine/external/SDL2/include/SDL_opengles2_gl2ext.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_gl2ext.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating include/SDL_opengles2_gl2ext.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_gl2ext.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengles2_gl2ext.h
-
-engine/external/SDL2/include/SDL_opengles2_gl2platform.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_gl2platform.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating include/SDL_opengles2_gl2platform.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_gl2platform.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengles2_gl2platform.h
-
-engine/external/SDL2/include/SDL_opengles2_khrplatform.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_khrplatform.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating include/SDL_opengles2_khrplatform.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_opengles2_khrplatform.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_opengles2_khrplatform.h
-
-engine/external/SDL2/include/SDL_pixels.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_pixels.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating include/SDL_pixels.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_pixels.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_pixels.h
-
-engine/external/SDL2/include/SDL_platform.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_platform.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating include/SDL_platform.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_platform.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_platform.h
-
-engine/external/SDL2/include/SDL_power.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_power.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating include/SDL_power.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_power.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_power.h
-
-engine/external/SDL2/include/SDL_quit.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_quit.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating include/SDL_quit.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_quit.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_quit.h
-
-engine/external/SDL2/include/SDL_rect.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_rect.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating include/SDL_rect.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_rect.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_rect.h
-
-engine/external/SDL2/include/SDL_render.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_render.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating include/SDL_render.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_render.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_render.h
-
-engine/external/SDL2/include/SDL_rwops.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_rwops.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating include/SDL_rwops.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_rwops.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_rwops.h
-
-engine/external/SDL2/include/SDL_scancode.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_scancode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating include/SDL_scancode.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_scancode.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_scancode.h
-
-engine/external/SDL2/include/SDL_sensor.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_sensor.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating include/SDL_sensor.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_sensor.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_sensor.h
-
-engine/external/SDL2/include/SDL_shape.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_shape.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating include/SDL_shape.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_shape.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_shape.h
-
-engine/external/SDL2/include/SDL_stdinc.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_stdinc.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating include/SDL_stdinc.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_stdinc.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_stdinc.h
-
-engine/external/SDL2/include/SDL_surface.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_surface.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating include/SDL_surface.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_surface.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_surface.h
-
-engine/external/SDL2/include/SDL_system.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_system.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating include/SDL_system.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_system.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_system.h
-
-engine/external/SDL2/include/SDL_syswm.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_syswm.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating include/SDL_syswm.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_syswm.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_syswm.h
-
-engine/external/SDL2/include/SDL_test.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating include/SDL_test.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test.h
-
-engine/external/SDL2/include/SDL_test_assert.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_assert.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating include/SDL_test_assert.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_assert.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_assert.h
-
-engine/external/SDL2/include/SDL_test_common.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_common.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating include/SDL_test_common.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_common.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_common.h
-
-engine/external/SDL2/include/SDL_test_compare.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_compare.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating include/SDL_test_compare.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_compare.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_compare.h
-
-engine/external/SDL2/include/SDL_test_crc32.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_crc32.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating include/SDL_test_crc32.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_crc32.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_crc32.h
-
-engine/external/SDL2/include/SDL_test_font.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_font.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating include/SDL_test_font.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_font.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_font.h
-
-engine/external/SDL2/include/SDL_test_fuzzer.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_fuzzer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating include/SDL_test_fuzzer.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_fuzzer.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_fuzzer.h
-
-engine/external/SDL2/include/SDL_test_harness.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_harness.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating include/SDL_test_harness.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_harness.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_harness.h
-
-engine/external/SDL2/include/SDL_test_images.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_images.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating include/SDL_test_images.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_images.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_images.h
-
-engine/external/SDL2/include/SDL_test_log.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_log.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating include/SDL_test_log.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_log.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_log.h
-
-engine/external/SDL2/include/SDL_test_md5.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_md5.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating include/SDL_test_md5.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_md5.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_md5.h
-
-engine/external/SDL2/include/SDL_test_memory.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_memory.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating include/SDL_test_memory.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_memory.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_memory.h
-
-engine/external/SDL2/include/SDL_test_random.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_random.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating include/SDL_test_random.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_test_random.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_test_random.h
-
-engine/external/SDL2/include/SDL_thread.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_thread.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating include/SDL_thread.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_thread.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_thread.h
-
-engine/external/SDL2/include/SDL_timer.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_timer.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating include/SDL_timer.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_timer.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_timer.h
-
-engine/external/SDL2/include/SDL_touch.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_touch.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating include/SDL_touch.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_touch.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_touch.h
-
-engine/external/SDL2/include/SDL_types.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_types.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating include/SDL_types.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_types.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_types.h
-
-engine/external/SDL2/include/SDL_version.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_version.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating include/SDL_version.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_version.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_version.h
-
-engine/external/SDL2/include/SDL_video.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_video.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating include/SDL_video.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_video.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_video.h
-
-engine/external/SDL2/include/SDL_vulkan.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_vulkan.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating include/SDL_vulkan.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/SDL_vulkan.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_vulkan.h
-
-engine/external/SDL2/include/begin_code.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/begin_code.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating include/begin_code.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/begin_code.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/begin_code.h
-
-engine/external/SDL2/include/close_code.h: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/close_code.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating include/close_code.h"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/include/close_code.h /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/close_code.h
+engine/external/SDL2/include/SDL.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/SDL.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL.h
+
+engine/external/SDL2/include/SDL_assert.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_assert.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating include/SDL_assert.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_assert.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_assert.h
+
+engine/external/SDL2/include/SDL_atomic.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_atomic.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/SDL_atomic.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_atomic.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_atomic.h
+
+engine/external/SDL2/include/SDL_audio.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_audio.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/SDL_audio.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_audio.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_audio.h
+
+engine/external/SDL2/include/SDL_bits.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_bits.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/SDL_bits.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_bits.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_bits.h
+
+engine/external/SDL2/include/SDL_blendmode.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_blendmode.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating include/SDL_blendmode.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_blendmode.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_blendmode.h
+
+engine/external/SDL2/include/SDL_clipboard.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_clipboard.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating include/SDL_clipboard.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_clipboard.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_clipboard.h
+
+engine/external/SDL2/include/SDL_copying.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_copying.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating include/SDL_copying.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_copying.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_copying.h
+
+engine/external/SDL2/include/SDL_cpuinfo.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_cpuinfo.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating include/SDL_cpuinfo.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_cpuinfo.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_cpuinfo.h
+
+engine/external/SDL2/include/SDL_egl.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_egl.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating include/SDL_egl.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_egl.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_egl.h
+
+engine/external/SDL2/include/SDL_endian.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_endian.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating include/SDL_endian.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_endian.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_endian.h
+
+engine/external/SDL2/include/SDL_error.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_error.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating include/SDL_error.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_error.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_error.h
+
+engine/external/SDL2/include/SDL_events.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_events.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating include/SDL_events.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_events.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_events.h
+
+engine/external/SDL2/include/SDL_filesystem.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_filesystem.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating include/SDL_filesystem.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_filesystem.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_filesystem.h
+
+engine/external/SDL2/include/SDL_gamecontroller.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_gamecontroller.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating include/SDL_gamecontroller.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_gamecontroller.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_gamecontroller.h
+
+engine/external/SDL2/include/SDL_gesture.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_gesture.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating include/SDL_gesture.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_gesture.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_gesture.h
+
+engine/external/SDL2/include/SDL_guid.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_guid.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating include/SDL_guid.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_guid.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_guid.h
+
+engine/external/SDL2/include/SDL_haptic.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_haptic.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating include/SDL_haptic.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_haptic.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_haptic.h
+
+engine/external/SDL2/include/SDL_hidapi.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_hidapi.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating include/SDL_hidapi.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_hidapi.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_hidapi.h
+
+engine/external/SDL2/include/SDL_hints.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_hints.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating include/SDL_hints.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_hints.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_hints.h
+
+engine/external/SDL2/include/SDL_joystick.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_joystick.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating include/SDL_joystick.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_joystick.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_joystick.h
+
+engine/external/SDL2/include/SDL_keyboard.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_keyboard.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating include/SDL_keyboard.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_keyboard.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_keyboard.h
+
+engine/external/SDL2/include/SDL_keycode.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_keycode.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating include/SDL_keycode.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_keycode.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_keycode.h
+
+engine/external/SDL2/include/SDL_loadso.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_loadso.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating include/SDL_loadso.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_loadso.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_loadso.h
+
+engine/external/SDL2/include/SDL_locale.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_locale.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating include/SDL_locale.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_locale.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_locale.h
+
+engine/external/SDL2/include/SDL_log.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_log.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating include/SDL_log.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_log.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_log.h
+
+engine/external/SDL2/include/SDL_main.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_main.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating include/SDL_main.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_main.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_main.h
+
+engine/external/SDL2/include/SDL_messagebox.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_messagebox.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating include/SDL_messagebox.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_messagebox.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_messagebox.h
+
+engine/external/SDL2/include/SDL_metal.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_metal.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating include/SDL_metal.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_metal.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_metal.h
+
+engine/external/SDL2/include/SDL_misc.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_misc.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating include/SDL_misc.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_misc.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_misc.h
+
+engine/external/SDL2/include/SDL_mouse.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_mouse.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating include/SDL_mouse.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_mouse.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_mouse.h
+
+engine/external/SDL2/include/SDL_mutex.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_mutex.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating include/SDL_mutex.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_mutex.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_mutex.h
+
+engine/external/SDL2/include/SDL_name.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_name.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating include/SDL_name.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_name.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_name.h
+
+engine/external/SDL2/include/SDL_opengl.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengl.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating include/SDL_opengl.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengl.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengl.h
+
+engine/external/SDL2/include/SDL_opengl_glext.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengl_glext.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating include/SDL_opengl_glext.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengl_glext.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengl_glext.h
+
+engine/external/SDL2/include/SDL_opengles.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating include/SDL_opengles.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengles.h
+
+engine/external/SDL2/include/SDL_opengles2.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating include/SDL_opengles2.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengles2.h
+
+engine/external/SDL2/include/SDL_opengles2_gl2.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_gl2.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating include/SDL_opengles2_gl2.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_gl2.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengles2_gl2.h
+
+engine/external/SDL2/include/SDL_opengles2_gl2ext.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_gl2ext.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating include/SDL_opengles2_gl2ext.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_gl2ext.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengles2_gl2ext.h
+
+engine/external/SDL2/include/SDL_opengles2_gl2platform.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_gl2platform.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Generating include/SDL_opengles2_gl2platform.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_gl2platform.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengles2_gl2platform.h
+
+engine/external/SDL2/include/SDL_opengles2_khrplatform.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_khrplatform.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Generating include/SDL_opengles2_khrplatform.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_opengles2_khrplatform.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_opengles2_khrplatform.h
+
+engine/external/SDL2/include/SDL_pixels.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_pixels.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Generating include/SDL_pixels.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_pixels.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_pixels.h
+
+engine/external/SDL2/include/SDL_platform.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_platform.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Generating include/SDL_platform.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_platform.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_platform.h
+
+engine/external/SDL2/include/SDL_power.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_power.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Generating include/SDL_power.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_power.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_power.h
+
+engine/external/SDL2/include/SDL_quit.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_quit.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Generating include/SDL_quit.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_quit.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_quit.h
+
+engine/external/SDL2/include/SDL_rect.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_rect.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Generating include/SDL_rect.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_rect.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_rect.h
+
+engine/external/SDL2/include/SDL_render.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_render.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Generating include/SDL_render.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_render.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_render.h
+
+engine/external/SDL2/include/SDL_rwops.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_rwops.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Generating include/SDL_rwops.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_rwops.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_rwops.h
+
+engine/external/SDL2/include/SDL_scancode.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_scancode.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Generating include/SDL_scancode.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_scancode.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_scancode.h
+
+engine/external/SDL2/include/SDL_sensor.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_sensor.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Generating include/SDL_sensor.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_sensor.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_sensor.h
+
+engine/external/SDL2/include/SDL_shape.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_shape.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Generating include/SDL_shape.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_shape.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_shape.h
+
+engine/external/SDL2/include/SDL_stdinc.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_stdinc.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Generating include/SDL_stdinc.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_stdinc.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_stdinc.h
+
+engine/external/SDL2/include/SDL_surface.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_surface.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Generating include/SDL_surface.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_surface.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_surface.h
+
+engine/external/SDL2/include/SDL_system.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_system.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Generating include/SDL_system.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_system.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_system.h
+
+engine/external/SDL2/include/SDL_syswm.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_syswm.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Generating include/SDL_syswm.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_syswm.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_syswm.h
+
+engine/external/SDL2/include/SDL_test.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Generating include/SDL_test.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test.h
+
+engine/external/SDL2/include/SDL_test_assert.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_assert.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Generating include/SDL_test_assert.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_assert.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_assert.h
+
+engine/external/SDL2/include/SDL_test_common.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_common.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Generating include/SDL_test_common.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_common.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_common.h
+
+engine/external/SDL2/include/SDL_test_compare.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_compare.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Generating include/SDL_test_compare.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_compare.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_compare.h
+
+engine/external/SDL2/include/SDL_test_crc32.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_crc32.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Generating include/SDL_test_crc32.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_crc32.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_crc32.h
+
+engine/external/SDL2/include/SDL_test_font.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_font.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Generating include/SDL_test_font.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_font.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_font.h
+
+engine/external/SDL2/include/SDL_test_fuzzer.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_fuzzer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Generating include/SDL_test_fuzzer.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_fuzzer.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_fuzzer.h
+
+engine/external/SDL2/include/SDL_test_harness.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_harness.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Generating include/SDL_test_harness.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_harness.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_harness.h
+
+engine/external/SDL2/include/SDL_test_images.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_images.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Generating include/SDL_test_images.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_images.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_images.h
+
+engine/external/SDL2/include/SDL_test_log.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_log.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Generating include/SDL_test_log.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_log.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_log.h
+
+engine/external/SDL2/include/SDL_test_md5.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_md5.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Generating include/SDL_test_md5.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_md5.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_md5.h
+
+engine/external/SDL2/include/SDL_test_memory.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_memory.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Generating include/SDL_test_memory.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_memory.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_memory.h
+
+engine/external/SDL2/include/SDL_test_random.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_random.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Generating include/SDL_test_random.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_test_random.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_test_random.h
+
+engine/external/SDL2/include/SDL_thread.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_thread.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Generating include/SDL_thread.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_thread.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_thread.h
+
+engine/external/SDL2/include/SDL_timer.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_timer.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Generating include/SDL_timer.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_timer.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_timer.h
+
+engine/external/SDL2/include/SDL_touch.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_touch.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Generating include/SDL_touch.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_touch.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_touch.h
+
+engine/external/SDL2/include/SDL_types.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_types.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Generating include/SDL_types.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_types.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_types.h
+
+engine/external/SDL2/include/SDL_version.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_version.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Generating include/SDL_version.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_version.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_version.h
+
+engine/external/SDL2/include/SDL_video.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_video.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Generating include/SDL_video.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_video.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_video.h
+
+engine/external/SDL2/include/SDL_vulkan.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_vulkan.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Generating include/SDL_vulkan.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/SDL_vulkan.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/SDL_vulkan.h
+
+engine/external/SDL2/include/begin_code.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/begin_code.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Generating include/begin_code.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/begin_code.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/begin_code.h
+
+engine/external/SDL2/include/close_code.h: /Users/nolen/Desktop/Engine/engine/external/SDL2/include/close_code.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Generating include/close_code.h"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -E copy_if_different /Users/nolen/Desktop/Engine/engine/external/SDL2/include/close_code.h /Users/nolen/Desktop/Engine/build/engine/external/SDL2/include/close_code.h
 
 sdl_headers_copy: engine/external/SDL2/CMakeFiles/sdl_headers_copy
 sdl_headers_copy: engine/external/SDL2/include/SDL.h
@@ -538,10 +538,10 @@ engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/build: sdl_headers_copy
 .PHONY : engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/build
 
 engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/clean:
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/sdl_headers_copy.dir/cmake_clean.cmake
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/sdl_headers_copy.dir/cmake_clean.cmake
 .PHONY : engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/clean
 
 engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/depend:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nolen/Desktop/coffeeGame /Users/nolen/Desktop/coffeeGame/engine/external/SDL2 /Users/nolen/Desktop/coffeeGame/build /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/nolen/Desktop/Engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nolen/Desktop/Engine /Users/nolen/Desktop/Engine/engine/external/SDL2 /Users/nolen/Desktop/Engine/build /Users/nolen/Desktop/Engine/build/engine/external/SDL2 /Users/nolen/Desktop/Engine/build/engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/SDL2/CMakeFiles/sdl_headers_copy.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nolen/Desktop/coffeeGame
+CMAKE_SOURCE_DIR = /Users/nolen/Desktop/Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nolen/Desktop/coffeeGame/build
+CMAKE_BINARY_DIR = /Users/nolen/Desktop/Engine/build
 
 # Include any dependencies generated for this target.
 include engine/external/SDL2/CMakeFiles/SDL2main.dir/depend.make
@@ -70,18 +70,18 @@ include engine/external/SDL2/CMakeFiles/SDL2main.dir/progress.make
 include engine/external/SDL2/CMakeFiles/SDL2main.dir/flags.make
 
 engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o: engine/external/SDL2/CMakeFiles/SDL2main.dir/flags.make
-engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c
+engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o: /Users/nolen/Desktop/Engine/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c
 engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o: engine/external/SDL2/CMakeFiles/SDL2main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o -MF CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o.d -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o -MF CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o.d -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o -c /Users/nolen/Desktop/Engine/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c
 
 engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c > CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/Engine/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c > CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/Engine/engine/external/SDL2/src/main/dummy/SDL_dummy_main.c -o CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.s
 
 # Object files for target SDL2main
 SDL2main_OBJECTS = \
@@ -93,19 +93,19 @@ SDL2main_EXTERNAL_OBJECTS =
 engine/external/SDL2/libSDL2maind.a: engine/external/SDL2/CMakeFiles/SDL2main.dir/src/main/dummy/SDL_dummy_main.c.o
 engine/external/SDL2/libSDL2maind.a: engine/external/SDL2/CMakeFiles/SDL2main.dir/build.make
 engine/external/SDL2/libSDL2maind.a: engine/external/SDL2/CMakeFiles/SDL2main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libSDL2maind.a"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean_target.cmake
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nolen/Desktop/Engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libSDL2maind.a"
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean_target.cmake
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDL2main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/SDL2/CMakeFiles/SDL2main.dir/build: engine/external/SDL2/libSDL2maind.a
 .PHONY : engine/external/SDL2/CMakeFiles/SDL2main.dir/build
 
 engine/external/SDL2/CMakeFiles/SDL2main.dir/clean:
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean.cmake
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/SDL2main.dir/cmake_clean.cmake
 .PHONY : engine/external/SDL2/CMakeFiles/SDL2main.dir/clean
 
 engine/external/SDL2/CMakeFiles/SDL2main.dir/depend:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nolen/Desktop/coffeeGame /Users/nolen/Desktop/coffeeGame/engine/external/SDL2 /Users/nolen/Desktop/coffeeGame/build /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/CMakeFiles/SDL2main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/nolen/Desktop/Engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nolen/Desktop/Engine /Users/nolen/Desktop/Engine/engine/external/SDL2 /Users/nolen/Desktop/Engine/build /Users/nolen/Desktop/Engine/build/engine/external/SDL2 /Users/nolen/Desktop/Engine/build/engine/external/SDL2/CMakeFiles/SDL2main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/SDL2/CMakeFiles/SDL2main.dir/depend
 

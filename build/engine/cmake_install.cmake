@@ -1,4 +1,4 @@
-# Install script for directory: /Users/nolen/Desktop/coffeeGame/engine
+# Install script for directory: /Users/nolen/Desktop/Engine/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+  set(CMAKE_OBJDUMP "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/cmake_install.cmake")
-  include("/Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2_image/cmake_install.cmake")
+  include("/Users/nolen/Desktop/Engine/build/engine/external/SDL2/cmake_install.cmake")
+  include("/Users/nolen/Desktop/Engine/build/engine/external/SDL2_image/cmake_install.cmake")
 
 endif()
 

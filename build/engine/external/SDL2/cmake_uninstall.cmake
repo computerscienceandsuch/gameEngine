@@ -1,8 +1,8 @@
-if (NOT EXISTS "/Users/nolen/Desktop/coffeeGame/build/install_manifest.txt")
-    message(FATAL_ERROR "Cannot find install manifest: \"/Users/nolen/Desktop/coffeeGame/build/install_manifest.txt\"")
-endif(NOT EXISTS "/Users/nolen/Desktop/coffeeGame/build/install_manifest.txt")
+if (NOT EXISTS "/Users/nolen/Desktop/Engine/build/install_manifest.txt")
+    message(FATAL_ERROR "Cannot find install manifest: \"/Users/nolen/Desktop/Engine/build/install_manifest.txt\"")
+endif(NOT EXISTS "/Users/nolen/Desktop/Engine/build/install_manifest.txt")
 
-file(READ "/Users/nolen/Desktop/coffeeGame/build/install_manifest.txt" files)
+file(READ "/Users/nolen/Desktop/Engine/build/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 foreach (file ${files})
     message(STATUS "Uninstalling \"$ENV{DESTDIR}${file}\"")

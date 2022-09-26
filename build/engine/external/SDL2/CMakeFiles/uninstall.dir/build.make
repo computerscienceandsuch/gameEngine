@@ -53,10 +53,10 @@ RM = /usr/local/Cellar/cmake/3.24.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/nolen/Desktop/coffeeGame
+CMAKE_SOURCE_DIR = /Users/nolen/Desktop/Engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/nolen/Desktop/coffeeGame/build
+CMAKE_BINARY_DIR = /Users/nolen/Desktop/Engine/build
 
 # Utility rule file for uninstall.
 
@@ -67,7 +67,7 @@ include engine/external/SDL2/CMakeFiles/uninstall.dir/compiler_depend.make
 include engine/external/SDL2/CMakeFiles/uninstall.dir/progress.make
 
 engine/external/SDL2/CMakeFiles/uninstall:
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -P /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/cmake_uninstall.cmake
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && /usr/local/Cellar/cmake/3.24.2/bin/cmake -P /Users/nolen/Desktop/Engine/build/engine/external/SDL2/cmake_uninstall.cmake
 
 uninstall: engine/external/SDL2/CMakeFiles/uninstall
 uninstall: engine/external/SDL2/CMakeFiles/uninstall.dir/build.make
@@ -78,10 +78,10 @@ engine/external/SDL2/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : engine/external/SDL2/CMakeFiles/uninstall.dir/build
 
 engine/external/SDL2/CMakeFiles/uninstall.dir/clean:
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/nolen/Desktop/Engine/build/engine/external/SDL2 && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : engine/external/SDL2/CMakeFiles/uninstall.dir/clean
 
 engine/external/SDL2/CMakeFiles/uninstall.dir/depend:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nolen/Desktop/coffeeGame /Users/nolen/Desktop/coffeeGame/engine/external/SDL2 /Users/nolen/Desktop/coffeeGame/build /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/nolen/Desktop/Engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/nolen/Desktop/Engine /Users/nolen/Desktop/Engine/engine/external/SDL2 /Users/nolen/Desktop/Engine/build /Users/nolen/Desktop/Engine/build/engine/external/SDL2 /Users/nolen/Desktop/Engine/build/engine/external/SDL2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/SDL2/CMakeFiles/uninstall.dir/depend
 
