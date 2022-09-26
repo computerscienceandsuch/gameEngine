@@ -1,0 +1,6 @@
+[submodule "engine/external/SDL2"]
+	path = engine/external/SDL2
+	url = https://github.com/libsdl-org/SDL
+[submodule "engine/external/SDL2_image"]
+	path = engine/external/SDL2_image
+	url = https://github.com/libsdl-org/SDL_image
