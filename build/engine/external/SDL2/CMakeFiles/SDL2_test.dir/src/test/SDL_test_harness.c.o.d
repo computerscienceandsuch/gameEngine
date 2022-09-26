@@ -1,6 +1,6 @@
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o: \
   /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c \
-  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include-config-debug/SDL_config.h \
+  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include-config-release/SDL_config.h \
   /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_platform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \

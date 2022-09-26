@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.2)
 
 project(coffeeGameEngine LANGUAGES CXX)
 
-add_library(${PROJECT_NAME} source/Engine.cpp)
+file(GLOB engine_sources source/*.cpp)
+
+add_library(${PROJECT_NAME} ${engine_sources})
 
 add_subdirectory(external/SDL2)
 add_subdirectory(external/SDL2_image)

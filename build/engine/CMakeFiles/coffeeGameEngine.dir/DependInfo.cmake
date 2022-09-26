@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/nolen/Desktop/coffeeGame/engine/source/Engine.cpp" "engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o" "gcc" "engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o.d"
+  "/Users/nolen/Desktop/coffeeGame/engine/source/Game.cpp" "engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o" "gcc" "engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o.d"
+  "/Users/nolen/Desktop/coffeeGame/engine/source/TexMan.cpp" "engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o" "gcc" "engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o.d"
+  "/Users/nolen/Desktop/coffeeGame/engine/source/Thing.cpp" "engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o" "gcc" "engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o.d"
   )
 
 # Targets to which this target links.

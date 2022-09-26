@@ -1,22 +1,44 @@
 #include <iostream>
-#include <Engine.h>
 
-#include "SDL.h"
+#include "Game.h"
+using namespace std;
 
-int main(){
+Game *game = nullptr;
 
-    std::cout << "G'day Cobbers" << std::endl;
-    Engine::Init();
+int main() { 
 
-    if(SDL_Init(SDL_INIT_EVERYTHING) == 0){
+  const int FPS = 240;
+  const int frameDelay = 1000 / FPS;
 
-        std::cout << "Subsystems Initialised..." << std::endl;
+  Uint32 frameStart;
+  int frameTime;
+  
+  game = new Game(); 
 
+  game->init("Window", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 800, 600, 0);
+
+  while(game->running()){
+
+    frameStart = SDL_GetTicks();
+
+    game->events();
+    game->update();
+    game->render();
+
+    frameTime = SDL_GetTicks() - frameStart;
+
+    if(frameDelay > frameTime){
+
+      SDL_Delay(frameDelay - frameTime); //Frame rate limiter! 
 
     }
 
-    SDL_Quit();
+  }
 
-    return (0);
+  game->clean();
 
+  delete game;
+
+  return (0);
+  
 }

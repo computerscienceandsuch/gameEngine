@@ -69,33 +69,65 @@ include engine/CMakeFiles/coffeeGameEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include engine/CMakeFiles/coffeeGameEngine.dir/flags.make
 
-engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/flags.make
-engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o: /Users/nolen/Desktop/coffeeGame/engine/source/Engine.cpp
-engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o -MF CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o.d -o CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o -c /Users/nolen/Desktop/coffeeGame/engine/source/Engine.cpp
+engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/flags.make
+engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o: /Users/nolen/Desktop/coffeeGame/engine/source/Game.cpp
+engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o -MF CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o.d -o CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o -c /Users/nolen/Desktop/coffeeGame/engine/source/Game.cpp
 
-engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/source/Engine.cpp > CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.i
+engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.i"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/source/Game.cpp > CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.i
 
-engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/source/Engine.cpp -o CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.s
+engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.s"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/source/Game.cpp -o CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.s
+
+engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/flags.make
+engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o: /Users/nolen/Desktop/coffeeGame/engine/source/TexMan.cpp
+engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o -MF CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o.d -o CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o -c /Users/nolen/Desktop/coffeeGame/engine/source/TexMan.cpp
+
+engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.i"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/source/TexMan.cpp > CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.i
+
+engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.s"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/source/TexMan.cpp -o CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.s
+
+engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/flags.make
+engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o: /Users/nolen/Desktop/coffeeGame/engine/source/Thing.cpp
+engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o: engine/CMakeFiles/coffeeGameEngine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o -MF CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o.d -o CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o -c /Users/nolen/Desktop/coffeeGame/engine/source/Thing.cpp
+
+engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.i"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/source/Thing.cpp > CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.i
+
+engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.s"
+	cd /Users/nolen/Desktop/coffeeGame/build/engine && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/source/Thing.cpp -o CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.s
 
 # Object files for target coffeeGameEngine
 coffeeGameEngine_OBJECTS = \
-"CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o"
+"CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o" \
+"CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o" \
+"CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o"
 
 # External object files for target coffeeGameEngine
 coffeeGameEngine_EXTERNAL_OBJECTS =
 
-engine/libcoffeeGameEngine.dylib: engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o
+engine/libcoffeeGameEngine.dylib: engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o
+engine/libcoffeeGameEngine.dylib: engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o
+engine/libcoffeeGameEngine.dylib: engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o
 engine/libcoffeeGameEngine.dylib: engine/CMakeFiles/coffeeGameEngine.dir/build.make
 engine/libcoffeeGameEngine.dylib: engine/external/SDL2_image/libSDL2_image-2.0d.701.0.0.dylib
 engine/libcoffeeGameEngine.dylib: engine/external/SDL2/libSDL2-2.0d.0.dylib
 engine/libcoffeeGameEngine.dylib: engine/CMakeFiles/coffeeGameEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libcoffeeGameEngine.dylib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libcoffeeGameEngine.dylib"
 	cd /Users/nolen/Desktop/coffeeGame/build/engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coffeeGameEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

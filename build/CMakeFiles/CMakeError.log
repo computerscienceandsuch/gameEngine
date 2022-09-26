@@ -1,27 +1,5 @@
-Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-ld: library not found for -lc++
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-
-
-Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
-Build flags: 
-Id flags:  
-
-The output was:
-1
-ld: library not found for -lSystem
-clang: error: linker command failed with exit code 1 (use -v to see invocation)
-
-
 Compiling the OBJC compiler identification source file "CMakeOBJCCompilerId.m" failed.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang 
 Build flags: 
 Id flags:  
 
@@ -34,15 +12,15 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 Determining if the __GLIBC__ exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_26974/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_26974.dir/build.make CMakeFiles/cmTC_26974.dir/build
-Building C object CMakeFiles/cmTC_26974.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_26974.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_26974.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_26974.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_10b35/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_10b35.dir/build.make CMakeFiles/cmTC_10b35.dir/build
+Building C object CMakeFiles/cmTC_10b35.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_10b35.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_10b35.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_10b35.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier '__GLIBC__'
   return ((int*)(&__GLIBC__))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_26974.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_26974/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_10b35.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_10b35/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -62,12 +40,12 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test HAVE_GCC_PREFERRED_STACK_BOUNDARY failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_5be52/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5be52.dir/build.make CMakeFiles/cmTC_5be52.dir/build
-Building C object CMakeFiles/cmTC_5be52.dir/src.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos" -mpreferred-stack-boundary=2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_5be52.dir/src.c.o -MF CMakeFiles/cmTC_5be52.dir/src.c.o.d -o CMakeFiles/cmTC_5be52.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aec6c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_aec6c.dir/build.make CMakeFiles/cmTC_aec6c.dir/build
+Building C object CMakeFiles/cmTC_aec6c.dir/src.c.o
+/usr/bin/clang -DHAVE_GCC_PREFERRED_STACK_BOUNDARY  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos" -mpreferred-stack-boundary=2 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_aec6c.dir/src.c.o -MF CMakeFiles/cmTC_aec6c.dir/src.c.o.d -o CMakeFiles/cmTC_aec6c.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
 clang: error: unknown argument: '-mpreferred-stack-boundary=2'
-make[1]: *** [CMakeFiles/cmTC_5be52.dir/src.c.o] Error 1
-make: *** [cmTC_5be52/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_aec6c.dir/src.c.o] Error 1
+make: *** [cmTC_aec6c/fast] Error 2
 
 
 Source file was:
@@ -75,9 +53,9 @@ int x = 0; int main(int argc, char **argv) { return 0; }
 Performing C SOURCE FILE Test HAVE_ALTIVEC_H_HDR failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_2d868/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2d868.dir/build.make CMakeFiles/cmTC_2d868.dir/build
-Building C object CMakeFiles/cmTC_2d868.dir/src.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_ALTIVEC_H_HDR  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos" -maltivec -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_2d868.dir/src.c.o -MF CMakeFiles/cmTC_2d868.dir/src.c.o.d -o CMakeFiles/cmTC_2d868.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_741d2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_741d2.dir/build.make CMakeFiles/cmTC_741d2.dir/build
+Building C object CMakeFiles/cmTC_741d2.dir/src.c.o
+/usr/bin/clang -DHAVE_ALTIVEC_H_HDR  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos" -maltivec -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_741d2.dir/src.c.o -MF CMakeFiles/cmTC_741d2.dir/src.c.o.d -o CMakeFiles/cmTC_741d2.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
 clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
 In file included from /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c:2:
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/altivec.h:13:2: error: "AltiVec support not enabled"
@@ -142,8 +120,8 @@ static __inline__ vector unsigned short __ATTRS_o_ai
                   ^
 fatal error: too many errors emitted, stopping now [-ferror-limit=]
 20 errors generated.
-make[1]: *** [CMakeFiles/cmTC_2d868.dir/src.c.o] Error 1
-make: *** [cmTC_2d868/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_741d2.dir/src.c.o] Error 1
+make: *** [cmTC_741d2/fast] Error 2
 
 
 Source file was:
@@ -156,9 +134,9 @@ Source file was:
 Performing C SOURCE FILE Test HAVE_ALTIVEC failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e6cfa/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e6cfa.dir/build.make CMakeFiles/cmTC_e6cfa.dir/build
-Building C object CMakeFiles/cmTC_e6cfa.dir/src.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_ALTIVEC  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos" -maltivec -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_e6cfa.dir/src.c.o -MF CMakeFiles/cmTC_e6cfa.dir/src.c.o.d -o CMakeFiles/cmTC_e6cfa.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6eda1/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6eda1.dir/build.make CMakeFiles/cmTC_6eda1.dir/build
+Building C object CMakeFiles/cmTC_6eda1.dir/src.c.o
+/usr/bin/clang -DHAVE_ALTIVEC  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos" -maltivec -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_6eda1.dir/src.c.o -MF CMakeFiles/cmTC_6eda1.dir/src.c.o.d -o CMakeFiles/cmTC_6eda1.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
 clang: warning: argument unused during compilation: '-maltivec' [-Wunused-command-line-argument]
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c:2:11: error: unknown type name 'vector'
           vector unsigned int vzero() {
@@ -167,8 +145,8 @@ clang: warning: argument unused during compilation: '-maltivec' [-Wunused-comman
               return vec_splat_u32(0);
                      ^
 2 errors generated.
-make[1]: *** [CMakeFiles/cmTC_e6cfa.dir/src.c.o] Error 1
-make: *** [cmTC_e6cfa/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6eda1.dir/src.c.o] Error 1
+make: *** [cmTC_6eda1/fast] Error 2
 
 
 Source file was:
@@ -180,30 +158,30 @@ Source file was:
 Determining if the include file malloc.h exists failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_865c6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_865c6.dir/build.make CMakeFiles/cmTC_865c6.dir/build
-Building C object CMakeFiles/cmTC_865c6.dir/CheckIncludeFile.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_865c6.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_865c6.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_865c6.dir/CheckIncludeFile.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a8f83/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a8f83.dir/build.make CMakeFiles/cmTC_a8f83.dir/build
+Building C object CMakeFiles/cmTC_a8f83.dir/CheckIncludeFile.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_a8f83.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a8f83.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a8f83.dir/CheckIncludeFile.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
 #include <malloc.h>
          ^~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_865c6.dir/CheckIncludeFile.c.o] Error 1
-make: *** [cmTC_865c6/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_a8f83.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_a8f83/fast] Error 2
 
 
 
 Determining if the _strrev exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5916/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c5916.dir/build.make CMakeFiles/cmTC_c5916.dir/build
-Building C object CMakeFiles/cmTC_c5916.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_c5916.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c5916.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c5916.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_83f47/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_83f47.dir/build.make CMakeFiles/cmTC_83f47.dir/build
+Building C object CMakeFiles/cmTC_83f47.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_83f47.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_83f47.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_83f47.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strrev'
   return ((int*)(&_strrev))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_c5916.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_c5916/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_83f47.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_83f47/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -229,15 +207,15 @@ int main(int argc, char** argv)
 Determining if the _strupr exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_c5bcd/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c5bcd.dir/build.make CMakeFiles/cmTC_c5bcd.dir/build
-Building C object CMakeFiles/cmTC_c5bcd.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_c5bcd.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_c5bcd.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_c5bcd.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e27fb/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e27fb.dir/build.make CMakeFiles/cmTC_e27fb.dir/build
+Building C object CMakeFiles/cmTC_e27fb.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_e27fb.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e27fb.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e27fb.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strupr'
   return ((int*)(&_strupr))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_c5bcd.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_c5bcd/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_e27fb.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_e27fb/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -263,15 +241,15 @@ int main(int argc, char** argv)
 Determining if the _strlwr exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e5d61/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e5d61.dir/build.make CMakeFiles/cmTC_e5d61.dir/build
-Building C object CMakeFiles/cmTC_e5d61.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_e5d61.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e5d61.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e5d61.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6fa13/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_6fa13.dir/build.make CMakeFiles/cmTC_6fa13.dir/build
+Building C object CMakeFiles/cmTC_6fa13.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_6fa13.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6fa13.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6fa13.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strlwr'
   return ((int*)(&_strlwr))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_e5d61.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_e5d61/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6fa13.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_6fa13/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -297,15 +275,15 @@ int main(int argc, char** argv)
 Determining if the itoa exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_72a6e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_72a6e.dir/build.make CMakeFiles/cmTC_72a6e.dir/build
-Building C object CMakeFiles/cmTC_72a6e.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_72a6e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_72a6e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_72a6e.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d20c7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d20c7.dir/build.make CMakeFiles/cmTC_d20c7.dir/build
+Building C object CMakeFiles/cmTC_d20c7.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_d20c7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d20c7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d20c7.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'itoa'
   return ((int*)(&itoa))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_72a6e.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_72a6e/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d20c7.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d20c7/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -331,15 +309,15 @@ int main(int argc, char** argv)
 Determining if the _ltoa exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1f476/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1f476.dir/build.make CMakeFiles/cmTC_1f476.dir/build
-Building C object CMakeFiles/cmTC_1f476.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_1f476.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_1f476.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_1f476.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ced02/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ced02.dir/build.make CMakeFiles/cmTC_ced02.dir/build
+Building C object CMakeFiles/cmTC_ced02.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_ced02.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ced02.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ced02.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ltoa'
   return ((int*)(&_ltoa))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_1f476.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_1f476/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ced02.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_ced02/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -365,15 +343,15 @@ int main(int argc, char** argv)
 Determining if the _uitoa exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_94e53/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_94e53.dir/build.make CMakeFiles/cmTC_94e53.dir/build
-Building C object CMakeFiles/cmTC_94e53.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_94e53.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_94e53.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_94e53.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d89d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8d89d.dir/build.make CMakeFiles/cmTC_8d89d.dir/build
+Building C object CMakeFiles/cmTC_8d89d.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_8d89d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8d89d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8d89d.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_uitoa'
   return ((int*)(&_uitoa))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_94e53.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_94e53/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_8d89d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_8d89d/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -399,15 +377,15 @@ int main(int argc, char** argv)
 Determining if the _ultoa exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_96f57/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_96f57.dir/build.make CMakeFiles/cmTC_96f57.dir/build
-Building C object CMakeFiles/cmTC_96f57.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_96f57.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_96f57.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_96f57.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_df69a/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_df69a.dir/build.make CMakeFiles/cmTC_df69a.dir/build
+Building C object CMakeFiles/cmTC_df69a.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_df69a.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_df69a.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_df69a.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ultoa'
   return ((int*)(&_ultoa))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_96f57.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_96f57/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_df69a.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_df69a/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -433,15 +411,15 @@ int main(int argc, char** argv)
 Determining if the _i64toa exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_3781c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3781c.dir/build.make CMakeFiles/cmTC_3781c.dir/build
-Building C object CMakeFiles/cmTC_3781c.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_3781c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_3781c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_3781c.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_02227/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_02227.dir/build.make CMakeFiles/cmTC_02227.dir/build
+Building C object CMakeFiles/cmTC_02227.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_02227.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_02227.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_02227.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_i64toa'
   return ((int*)(&_i64toa))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_3781c.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_3781c/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_02227.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_02227/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -467,15 +445,15 @@ int main(int argc, char** argv)
 Determining if the _ui64toa exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_48bec/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_48bec.dir/build.make CMakeFiles/cmTC_48bec.dir/build
-Building C object CMakeFiles/cmTC_48bec.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_48bec.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_48bec.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_48bec.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_07d36/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_07d36.dir/build.make CMakeFiles/cmTC_07d36.dir/build
+Building C object CMakeFiles/cmTC_07d36.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_07d36.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_07d36.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_07d36.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_ui64toa'
   return ((int*)(&_ui64toa))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_48bec.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_48bec/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_07d36.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_07d36/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -501,15 +479,15 @@ int main(int argc, char** argv)
 Determining if the _stricmp exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea776/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ea776.dir/build.make CMakeFiles/cmTC_ea776.dir/build
-Building C object CMakeFiles/cmTC_ea776.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_ea776.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ea776.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ea776.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5041b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5041b.dir/build.make CMakeFiles/cmTC_5041b.dir/build
+Building C object CMakeFiles/cmTC_5041b.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_5041b.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5041b.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5041b.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_stricmp'
   return ((int*)(&_stricmp))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_ea776.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_ea776/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_5041b.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_5041b/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -535,9 +513,9 @@ int main(int argc, char** argv)
 Determining if the _strnicmp exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_11075/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_11075.dir/build.make CMakeFiles/cmTC_11075.dir/build
-Building C object CMakeFiles/cmTC_11075.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_11075.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_11075.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_11075.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c59c/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5c59c.dir/build.make CMakeFiles/cmTC_5c59c.dir/build
+Building C object CMakeFiles/cmTC_5c59c.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_5c59c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_5c59c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_5c59c.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_strnicmp'; did you mean 'strncmp'?
   return ((int*)(&_strnicmp))[argc];
                   ^~~~~~~~~
@@ -546,8 +524,8 @@ Building C object CMakeFiles/cmTC_11075.dir/CheckSymbolExists.c.o
 int      strncmp(const char *__s1, const char *__s2, size_t __n);
          ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_11075.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_11075/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_5c59c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_5c59c/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -573,9 +551,9 @@ int main(int argc, char** argv)
 Determining if the _wcsdup exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_16ce7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_16ce7.dir/build.make CMakeFiles/cmTC_16ce7.dir/build
-Building C object CMakeFiles/cmTC_16ce7.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_16ce7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_16ce7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_16ce7.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d9284/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d9284.dir/build.make CMakeFiles/cmTC_d9284.dir/build
+Building C object CMakeFiles/cmTC_d9284.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_d9284.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d9284.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d9284.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsdup'; did you mean 'wcsdup'?
   return ((int*)(&_wcsdup))[argc];
                   ^~~~~~~
@@ -584,8 +562,8 @@ Building C object CMakeFiles/cmTC_16ce7.dir/CheckSymbolExists.c.o
 wchar_t *wcsdup(const wchar_t *) __OSX_AVAILABLE_STARTING(__MAC_10_7, __IPHONE_4_3);
          ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_16ce7.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_16ce7/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_d9284.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d9284/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -611,15 +589,15 @@ int main(int argc, char** argv)
 Determining if the _wcsicmp exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_99585/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_99585.dir/build.make CMakeFiles/cmTC_99585.dir/build
-Building C object CMakeFiles/cmTC_99585.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_99585.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_99585.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_99585.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ad777/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_ad777.dir/build.make CMakeFiles/cmTC_ad777.dir/build
+Building C object CMakeFiles/cmTC_ad777.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_ad777.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_ad777.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_ad777.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsicmp'
   return ((int*)(&_wcsicmp))[argc];
                   ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_99585.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_99585/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_ad777.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_ad777/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -645,9 +623,9 @@ int main(int argc, char** argv)
 Determining if the _wcsnicmp exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_9d177/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_9d177.dir/build.make CMakeFiles/cmTC_9d177.dir/build
-Building C object CMakeFiles/cmTC_9d177.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_9d177.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9d177.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9d177.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_69156/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_69156.dir/build.make CMakeFiles/cmTC_69156.dir/build
+Building C object CMakeFiles/cmTC_69156.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_69156.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_69156.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_69156.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier '_wcsnicmp'; did you mean 'wcsncmp'?
   return ((int*)(&_wcsnicmp))[argc];
                   ^~~~~~~~~
@@ -656,8 +634,8 @@ Building C object CMakeFiles/cmTC_9d177.dir/CheckSymbolExists.c.o
 int     wcsncmp(const wchar_t *, const wchar_t *, size_t);
         ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_9d177.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_9d177/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_69156.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_69156/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -683,9 +661,9 @@ int main(int argc, char** argv)
 Determining if the fopen64 exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_a0d62/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a0d62.dir/build.make CMakeFiles/cmTC_a0d62.dir/build
-Building C object CMakeFiles/cmTC_a0d62.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_a0d62.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a0d62.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a0d62.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a831/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_0a831.dir/build.make CMakeFiles/cmTC_0a831.dir/build
+Building C object CMakeFiles/cmTC_0a831.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_0a831.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_0a831.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_0a831.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fopen64'; did you mean 'fopen'?
   return ((int*)(&fopen64))[argc];
                   ^~~~~~~
@@ -694,8 +672,8 @@ Building C object CMakeFiles/cmTC_a0d62.dir/CheckSymbolExists.c.o
 FILE    *fopen(const char * __restrict __filename, const char * __restrict __mode) __DARWIN_ALIAS_STARTING(__MAC_10_6, __IPHONE_2_0, __DARWIN_ALIAS(fopen));
          ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_a0d62.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_a0d62/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_0a831.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_0a831/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -721,9 +699,9 @@ int main(int argc, char** argv)
 Determining if the fseeko64 exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_e94e3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_e94e3.dir/build.make CMakeFiles/cmTC_e94e3.dir/build
-Building C object CMakeFiles/cmTC_e94e3.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_e94e3.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_e94e3.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_e94e3.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60989/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_60989.dir/build.make CMakeFiles/cmTC_60989.dir/build
+Building C object CMakeFiles/cmTC_60989.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_60989.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_60989.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_60989.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:14:19: error: use of undeclared identifier 'fseeko64'; did you mean 'fseeko'?
   return ((int*)(&fseeko64))[argc];
                   ^~~~~~~~
@@ -732,8 +710,8 @@ Building C object CMakeFiles/cmTC_e94e3.dir/CheckSymbolExists.c.o
 int      fseeko(FILE * __stream, off_t __offset, int __whence);
          ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_e94e3.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_e94e3/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_60989.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_60989/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -759,15 +737,15 @@ int main(int argc, char** argv)
 Determining if the getauxval exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_25bf6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_25bf6.dir/build.make CMakeFiles/cmTC_25bf6.dir/build
-Building C object CMakeFiles/cmTC_25bf6.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_25bf6.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_25bf6.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_25bf6.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_21488/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_21488.dir/build.make CMakeFiles/cmTC_21488.dir/build
+Building C object CMakeFiles/cmTC_21488.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_21488.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_21488.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_21488.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
 #include <sys/auxv.h>
          ^~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_25bf6.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_25bf6/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_21488.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_21488/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -787,15 +765,15 @@ int main(int argc, char** argv)
 Determining if the elf_aux_info exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f20d/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_8f20d.dir/build.make CMakeFiles/cmTC_8f20d.dir/build
-Building C object CMakeFiles/cmTC_8f20d.dir/CheckSymbolExists.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_8f20d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_8f20d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_8f20d.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a2ad7/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a2ad7.dir/build.make CMakeFiles/cmTC_a2ad7.dir/build
+Building C object CMakeFiles/cmTC_a2ad7.dir/CheckSymbolExists.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_a2ad7.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_a2ad7.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_a2ad7.dir/CheckSymbolExists.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'sys/auxv.h' file not found
 #include <sys/auxv.h>
          ^~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_8f20d.dir/CheckSymbolExists.c.o] Error 1
-make: *** [cmTC_8f20d/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_a2ad7.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_a2ad7/fast] Error 2
 
 
 File /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
@@ -815,9 +793,9 @@ int main(int argc, char** argv)
 Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_7da6b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_7da6b.dir/build.make CMakeFiles/cmTC_7da6b.dir/build
-Building C object CMakeFiles/cmTC_7da6b.dir/src.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_SEM_TIMEDWAIT  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_7da6b.dir/src.c.o -MF CMakeFiles/cmTC_7da6b.dir/src.c.o.d -o CMakeFiles/cmTC_7da6b.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a9ad2/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a9ad2.dir/build.make CMakeFiles/cmTC_a9ad2.dir/build
+Building C object CMakeFiles/cmTC_a9ad2.dir/src.c.o
+/usr/bin/clang -DHAVE_SEM_TIMEDWAIT  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_a9ad2.dir/src.c.o -MF CMakeFiles/cmTC_a9ad2.dir/src.c.o.d -o CMakeFiles/cmTC_a9ad2.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c:5:19: error: implicit declaration of function 'sem_timedwait' is invalid in C99 [-Werror,-Wimplicit-function-declaration]
                   sem_timedwait(NULL, NULL);
                   ^
@@ -826,8 +804,8 @@ Building C object CMakeFiles/cmTC_7da6b.dir/src.c.o
 int sem_trywait(sem_t *);
     ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_7da6b.dir/src.c.o] Error 1
-make: *** [cmTC_7da6b/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_a9ad2.dir/src.c.o] Error 1
+make: *** [cmTC_a9ad2/fast] Error 2
 
 
 Source file was:
@@ -841,15 +819,15 @@ Source file was:
 Determining if files pthread_np.h exist failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_649a8/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_649a8.dir/build.make CMakeFiles/cmTC_649a8.dir/build
-Building C object CMakeFiles/cmTC_649a8.dir/HAVE_PTHREAD_NP_H.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_649a8.dir/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles/cmTC_649a8.dir/HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_649a8.dir/HAVE_PTHREAD_NP_H.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_636b3/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_636b3.dir/build.make CMakeFiles/cmTC_636b3.dir/build
+Building C object CMakeFiles/cmTC_636b3.dir/HAVE_PTHREAD_NP_H.c.o
+/usr/bin/clang   -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_636b3.dir/HAVE_PTHREAD_NP_H.c.o -MF CMakeFiles/cmTC_636b3.dir/HAVE_PTHREAD_NP_H.c.o.d -o CMakeFiles/cmTC_636b3.dir/HAVE_PTHREAD_NP_H.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CheckIncludeFiles/HAVE_PTHREAD_NP_H.c:2:10: fatal error: 'pthread_np.h' file not found
 #include <pthread_np.h>
          ^~~~~~~~~~~~~~
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_649a8.dir/HAVE_PTHREAD_NP_H.c.o] Error 1
-make: *** [cmTC_649a8/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_636b3.dir/HAVE_PTHREAD_NP_H.c.o] Error 1
+make: *** [cmTC_636b3/fast] Error 2
 
 
 Source:
@@ -862,9 +840,9 @@ int main(void){return 0;}
 Performing C SOURCE FILE Test HAVE_PTHREAD_SETNAME_NP failed with the following output:
 Change Dir: /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d11b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_1d11b.dir/build.make CMakeFiles/cmTC_1d11b.dir/build
-Building C object CMakeFiles/cmTC_1d11b.dir/src.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE_PTHREAD_SETNAME_NP  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_1d11b.dir/src.c.o -MF CMakeFiles/cmTC_1d11b.dir/src.c.o.d -o CMakeFiles/cmTC_1d11b.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4d005/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4d005.dir/build.make CMakeFiles/cmTC_4d005.dir/build
+Building C object CMakeFiles/cmTC_4d005.dir/src.c.o
+/usr/bin/clang -DHAVE_PTHREAD_SETNAME_NP  -idirafter "/Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/video/khronos"  -D_THREAD_SAFE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -MD -MT CMakeFiles/cmTC_4d005.dir/src.c.o -MF CMakeFiles/cmTC_4d005.dir/src.c.o.d -o CMakeFiles/cmTC_4d005.dir/src.c.o -c /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c
 /Users/nolen/Desktop/coffeeGame/build/CMakeFiles/CMakeTmp/src.c:5:50: error: too many arguments to function call, expected 1, have 2
               pthread_setname_np(pthread_self(), "");
               ~~~~~~~~~~~~~~~~~~                 ^~
@@ -872,8 +850,8 @@ Building C object CMakeFiles/cmTC_1d11b.dir/src.c.o
 int     pthread_setname_np(const char*);
         ^
 1 error generated.
-make[1]: *** [CMakeFiles/cmTC_1d11b.dir/src.c.o] Error 1
-make: *** [cmTC_1d11b/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_4d005.dir/src.c.o] Error 1
+make: *** [cmTC_4d005/fast] Error 2
 
 
 Source file was:

@@ -416,7 +416,7 @@ game/CMakeFiles/coffeeGame.dir/source/main.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
- /Users/nolen/Desktop/coffeeGame/engine/include/Engine.h
+ /Users/nolen/Desktop/coffeeGame/engine/include/Game.h
  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL.h
  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_main.h
  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_stdinc.h
@@ -558,4 +558,5 @@ game/CMakeFiles/coffeeGame.dir/source/main.cpp.o
  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_version.h
  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_locale.h
  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_misc.h
+ /Users/nolen/Desktop/coffeeGame/engine/external/SDL2_image/SDL_image.h
 

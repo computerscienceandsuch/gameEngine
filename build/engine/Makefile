@@ -130,29 +130,77 @@ coffeeGameEngine/fast:
 	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/build
 .PHONY : coffeeGameEngine/fast
 
-source/Engine.o: source/Engine.cpp.o
-.PHONY : source/Engine.o
+source/Game.o: source/Game.cpp.o
+.PHONY : source/Game.o
 
 # target to build an object file
-source/Engine.cpp.o:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.o
-.PHONY : source/Engine.cpp.o
+source/Game.cpp.o:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.o
+.PHONY : source/Game.cpp.o
 
-source/Engine.i: source/Engine.cpp.i
-.PHONY : source/Engine.i
+source/Game.i: source/Game.cpp.i
+.PHONY : source/Game.i
 
 # target to preprocess a source file
-source/Engine.cpp.i:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.i
-.PHONY : source/Engine.cpp.i
+source/Game.cpp.i:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.i
+.PHONY : source/Game.cpp.i
 
-source/Engine.s: source/Engine.cpp.s
-.PHONY : source/Engine.s
+source/Game.s: source/Game.cpp.s
+.PHONY : source/Game.s
 
 # target to generate assembly for a file
-source/Engine.cpp.s:
-	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Engine.cpp.s
-.PHONY : source/Engine.cpp.s
+source/Game.cpp.s:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Game.cpp.s
+.PHONY : source/Game.cpp.s
+
+source/TexMan.o: source/TexMan.cpp.o
+.PHONY : source/TexMan.o
+
+# target to build an object file
+source/TexMan.cpp.o:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.o
+.PHONY : source/TexMan.cpp.o
+
+source/TexMan.i: source/TexMan.cpp.i
+.PHONY : source/TexMan.i
+
+# target to preprocess a source file
+source/TexMan.cpp.i:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.i
+.PHONY : source/TexMan.cpp.i
+
+source/TexMan.s: source/TexMan.cpp.s
+.PHONY : source/TexMan.s
+
+# target to generate assembly for a file
+source/TexMan.cpp.s:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/TexMan.cpp.s
+.PHONY : source/TexMan.cpp.s
+
+source/Thing.o: source/Thing.cpp.o
+.PHONY : source/Thing.o
+
+# target to build an object file
+source/Thing.cpp.o:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.o
+.PHONY : source/Thing.cpp.o
+
+source/Thing.i: source/Thing.cpp.i
+.PHONY : source/Thing.i
+
+# target to preprocess a source file
+source/Thing.cpp.i:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.i
+.PHONY : source/Thing.cpp.i
+
+source/Thing.s: source/Thing.cpp.s
+.PHONY : source/Thing.s
+
+# target to generate assembly for a file
+source/Thing.cpp.s:
+	cd /Users/nolen/Desktop/coffeeGame/build && $(MAKE) $(MAKESILENT) -f engine/CMakeFiles/coffeeGameEngine.dir/build.make engine/CMakeFiles/coffeeGameEngine.dir/source/Thing.cpp.s
+.PHONY : source/Thing.cpp.s
 
 # Help Target
 help:
@@ -163,9 +211,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... coffeeGameEngine"
-	@echo "... source/Engine.o"
-	@echo "... source/Engine.i"
-	@echo "... source/Engine.s"
+	@echo "... source/Game.o"
+	@echo "... source/Game.i"
+	@echo "... source/Game.s"
+	@echo "... source/TexMan.o"
+	@echo "... source/TexMan.i"
+	@echo "... source/TexMan.s"
+	@echo "... source/Thing.o"
+	@echo "... source/Thing.i"
+	@echo "... source/Thing.s"
 .PHONY : help
 
 

@@ -415,7 +415,7 @@ game/CMakeFiles/coffeeGame.dir/source/main.cpp.o: /Users/nolen/Desktop/coffeeGam
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/nolen/Desktop/coffeeGame/engine/include/Engine.h \
+  /Users/nolen/Desktop/coffeeGame/engine/include/Game.h \
   engine/external/SDL2/include/SDL.h \
   engine/external/SDL2/include/SDL_main.h \
   engine/external/SDL2/include/SDL_stdinc.h \
@@ -556,7 +556,8 @@ game/CMakeFiles/coffeeGame.dir/source/main.cpp.o: /Users/nolen/Desktop/coffeeGam
   engine/external/SDL2/include/SDL_timer.h \
   engine/external/SDL2/include/SDL_version.h \
   engine/external/SDL2/include/SDL_locale.h \
-  engine/external/SDL2/include/SDL_misc.h
+  engine/external/SDL2/include/SDL_misc.h \
+  /Users/nolen/Desktop/coffeeGame/engine/external/SDL2_image/SDL_image.h
 
 
 engine/external/SDL2/include/SDL_locale.h:
@@ -647,6 +648,8 @@ engine/external/SDL2/include/SDL_events.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/avx512vlvnniintrin.h:
 
+/Users/nolen/Desktop/coffeeGame/engine/external/SDL2_image/SDL_image.h:
+
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/avx512vnniintrin.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.0/include/avx512vpopcntdqvlintrin.h:
@@ -716,6 +719,8 @@ engine/external/SDL2/include/SDL_platform.h:
 engine/external/SDL2/include/SDL_main.h:
 
 engine/external/SDL2/include/SDL.h:
+
+/Users/nolen/Desktop/coffeeGame/engine/include/Game.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -1426,8 +1431,6 @@ engine/external/SDL2/include/SDL_hints.h:
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/iterator:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__algorithm/transform.h:
-
-/Users/nolen/Desktop/coffeeGame/engine/include/Engine.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/c++/v1/__memory/uninitialized_algorithms.h:
 

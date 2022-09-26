@@ -4,7 +4,7 @@ engine/external/SDL2/CMakeFiles/SDL2-static.dir/src/joystick/hidapi/SDL_hidapi_g
   /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/joystick/hidapi/../../dynapi/SDL_dynapi.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/TargetConditionals.h \
   /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/joystick/hidapi/../../dynapi/SDL_dynapi_overrides.h \
-  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include-config-debug/SDL_config.h \
+  /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include-config-release/SDL_config.h \
   /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2/include/SDL_platform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/AvailabilityMacros.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk/usr/include/Availability.h \

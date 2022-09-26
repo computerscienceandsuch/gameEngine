@@ -73,15 +73,15 @@ game/CMakeFiles/coffeeGame.dir/source/main.cpp.o: game/CMakeFiles/coffeeGame.dir
 game/CMakeFiles/coffeeGame.dir/source/main.cpp.o: /Users/nolen/Desktop/coffeeGame/game/source/main.cpp
 game/CMakeFiles/coffeeGame.dir/source/main.cpp.o: game/CMakeFiles/coffeeGame.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object game/CMakeFiles/coffeeGame.dir/source/main.cpp.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/game && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/CMakeFiles/coffeeGame.dir/source/main.cpp.o -MF CMakeFiles/coffeeGame.dir/source/main.cpp.o.d -o CMakeFiles/coffeeGame.dir/source/main.cpp.o -c /Users/nolen/Desktop/coffeeGame/game/source/main.cpp
+	cd /Users/nolen/Desktop/coffeeGame/build/game && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/CMakeFiles/coffeeGame.dir/source/main.cpp.o -MF CMakeFiles/coffeeGame.dir/source/main.cpp.o.d -o CMakeFiles/coffeeGame.dir/source/main.cpp.o -c /Users/nolen/Desktop/coffeeGame/game/source/main.cpp
 
 game/CMakeFiles/coffeeGame.dir/source/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coffeeGame.dir/source/main.cpp.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/game && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nolen/Desktop/coffeeGame/game/source/main.cpp > CMakeFiles/coffeeGame.dir/source/main.cpp.i
+	cd /Users/nolen/Desktop/coffeeGame/build/game && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nolen/Desktop/coffeeGame/game/source/main.cpp > CMakeFiles/coffeeGame.dir/source/main.cpp.i
 
 game/CMakeFiles/coffeeGame.dir/source/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coffeeGame.dir/source/main.cpp.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/game && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nolen/Desktop/coffeeGame/game/source/main.cpp -o CMakeFiles/coffeeGame.dir/source/main.cpp.s
+	cd /Users/nolen/Desktop/coffeeGame/build/game && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nolen/Desktop/coffeeGame/game/source/main.cpp -o CMakeFiles/coffeeGame.dir/source/main.cpp.s
 
 # Object files for target coffeeGame
 coffeeGame_OBJECTS = \

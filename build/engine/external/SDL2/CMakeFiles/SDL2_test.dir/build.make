@@ -73,225 +73,225 @@ engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o: engi
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_assert.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_assert.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_common.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_common.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_compare.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_compare.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_crc32.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_crc32.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_font.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_font.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_fuzzer.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_fuzzer.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_harness.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_harness.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlit.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlit.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageBlitBlend.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageBlitBlend.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imageFace.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imageFace.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitives.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitives.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_imagePrimitivesBlend.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_imagePrimitivesBlend.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_log.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_log.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_md5.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_md5.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_memory.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_memory.c.s
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/flags.make
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o: /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o: engine/external/SDL2/CMakeFiles/SDL2_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nolen/Desktop/coffeeGame/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o -MF CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o.d -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.o -c /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c > CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.i
 
 engine/external/SDL2/CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s"
-	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s
+	cd /Users/nolen/Desktop/coffeeGame/build/engine/external/SDL2 && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/nolen/Desktop/coffeeGame/engine/external/SDL2/src/test/SDL_test_random.c -o CMakeFiles/SDL2_test.dir/src/test/SDL_test_random.c.s
 
 # Object files for target SDL2_test
 SDL2_test_OBJECTS = \
