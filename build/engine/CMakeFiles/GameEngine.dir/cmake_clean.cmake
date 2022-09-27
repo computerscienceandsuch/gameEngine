@@ -5,7 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GameEngine.dir/source/TexMan.cpp.o.d"
   "CMakeFiles/GameEngine.dir/source/Thing.cpp.o"
   "CMakeFiles/GameEngine.dir/source/Thing.cpp.o.d"
-  "libGameEngine.a"
+  "libGameEngine.dylib"
   "libGameEngine.pdb"
 )
 

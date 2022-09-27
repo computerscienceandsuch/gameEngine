@@ -59,7 +59,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE"
 				}
 			],
 			"includes" : 
@@ -129,12 +129,12 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine/external/SDL2_image -Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine/external/SDL2",
+				"fragment" : "-Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine -Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine/external/SDL2_image -Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine/external/SDL2",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "../engine/libGameEngine.a",
+				"fragment" : "../engine/libGameEngine.dylib",
 				"role" : "libraries"
 			},
 			{

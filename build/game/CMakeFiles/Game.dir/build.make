@@ -92,7 +92,7 @@ Game_EXTERNAL_OBJECTS =
 
 game/Game: game/CMakeFiles/Game.dir/source/main.cpp.o
 game/Game: game/CMakeFiles/Game.dir/build.make
-game/Game: engine/libGameEngine.a
+game/Game: engine/libGameEngine.dylib
 game/Game: engine/external/SDL2_image/libSDL2_image-2.0d.701.0.0.dylib
 game/Game: engine/external/SDL2/libSDL2-2.0d.0.dylib
 game/Game: game/CMakeFiles/Game.dir/link.txt

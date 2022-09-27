@@ -1,4 +1,4 @@
-#define SDL_REVISION "@e4a99a26e0b8411ccf0f69f87f2e57b60e498a26"
+#define SDL_REVISION "https://github.com/computerscienceandsuch/gameEngine.git@b37bf5ce7438bd9b12cfcef5fb111df65088aa40"
 #define SDL_REVISION_NUMBER 0
 
 #ifndef SDL_REVISION

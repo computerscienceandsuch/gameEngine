@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/Users/nolen/Desktop/Engine/game/GameEngine -I/Users/nolen/Desktop/Engine/engine/include -I/Users/nolen/Desktop/Engine/engine/SDL2 -I/Users/nolen/Desktop/Engine/engine/SDL2_image -I/Users/nolen/Desktop/Engine/build/engine/external/SDL2/include -I/Users/nolen/Desktop/Engine/build/engine/external/SDL2/include-config-debug -I/Users/nolen/Desktop/Engine/engine/external/SDL2_image
 
-CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIE
 

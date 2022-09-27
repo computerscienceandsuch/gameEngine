@@ -1,9 +1,8 @@
 {
-	"archive" : {},
 	"artifacts" : 
 	[
 		{
-			"path" : "engine/libGameEngine.a"
+			"path" : "engine/libGameEngine.dylib"
 		}
 	],
 	"backtrace" : 1,
@@ -50,7 +49,13 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk"
+					"fragment" : "-g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "GameEngine_EXPORTS"
 				}
 			],
 			"includes" : 
@@ -101,8 +106,33 @@
 		}
 	],
 	"id" : "GameEngine::@4088515cb4035b412499",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine/external/SDL2_image -Wl,-rpath,/Users/nolen/Desktop/Engine/build/engine/external/SDL2",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "external/SDL2_image/libSDL2_image-2.0d.701.0.0.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "external/SDL2/libSDL2-2.0d.0.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
 	"name" : "GameEngine",
-	"nameOnDisk" : "libGameEngine.a",
+	"nameOnDisk" : "libGameEngine.dylib",
 	"paths" : 
 	{
 		"build" : "engine",
@@ -141,5 +171,5 @@
 			"sourceGroupIndex" : 0
 		}
 	],
-	"type" : "STATIC_LIBRARY"
+	"type" : "SHARED_LIBRARY"
 }
